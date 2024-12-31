@@ -32,3 +32,6 @@ src/notebooks/mlruns
 *.ipynb.lock.json.lock.lock.lock
 *.ipynb.lock.json.lock.lock.lock.lock
 *.ipynb.lock.json.lock.lock.lock.lock.lock
+# Sistem dosyaları
+.DS_Store
+Thumbs.db

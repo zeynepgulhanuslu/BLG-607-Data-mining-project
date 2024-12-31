@@ -28,14 +28,14 @@ Bu proje, makine öğrenmesi ve derin öğrenme yöntemlerini kullanarak e-posta
 
 1. Projeyi klonlayın: 
 bash
-git clone https://github.com/kullaniciadi/phishing-mail-detection.git
-cd phishing-mail-detection
+git clone https://github.com/zeynepgulhanuslu/BLG-607-Data-mining-project.git phishing-mail-detection
+cd phishing-mail-detection 
 
 2. Gerekli paketleri yükleyin:
 bash
 pip install -r requirements.txt
 
-3. Projeyi çalıştırın:
+3. Streamlit projesini çalıştırma:
 bash
 python src/phishing_mail_detection_app.py
 
@@ -50,16 +50,6 @@ phishing-mail-detection/
 ├── requirements.txt
 └── README.md
 
-
-## 🔧 Kullanılan Teknolojiler
-
-- Python 3.8+
-- TensorFlow
-- Scikit-learn
-- Streamlit
-- Joblib
-- NumPy
-- Pandas
 
 ## 💡 Kullanım
 
