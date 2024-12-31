@@ -1,0 +1,16 @@
+datasets
+matplotlib
+seaborn
+ipykernel
+scikit-learn
+wordcloud
+pandas
+torch
+transformers
+nltk
+xgboost
+openai 
+pandas
+mlflow
+tensorflow
+streamlit
