@@ -27,45 +27,45 @@ Bu proje, makine öğrenmesi ve derin öğrenme yöntemlerini kullanarak e-posta
 ## 🛠 Kurulum
 
 1. Projeyi klonlayın: 
-```bash
+```
 git clone https://github.com/zeynepgulhanuslu/BLG-607-Data-mining-project.git phishing-mail-detection
 cd phishing-mail-detection 
-
+```
 2. Gerekli paketleri yükleyin:
-```bash
+```
 pip install -r requirements.txt
-
+```
 3. Veri analizi ve ön işleme:
 Veri analizi ve ön işleme için Jupyter Notebook kullanılır. 
-```bash
+```
 python src/notebooks/data_analysis.ipynb
-
+```
 4. Model eğitimi:
 SVM ve SVM-CV modelleri için:
-```bash
+```
 python src/notebooks/svm_training.ipynb
-
+```
 Logistic Regression için:
-```bash
+```
 python src/notebooks/logistic_regression.ipynb
-
+```
 MLP için:
-```bash
+```
 python src/notebooks/mlp_training.ipynb
-
+```
 DNN için:
-```bash
+```
 python src/notebooks/dnn_model_training.ipynb
-
+```
 notebook ları kullanılır. Adım adım çalıştırarak görebilirsiniz.
 
 5. Streamlit projesini çalıştırma:
 
 Eğitilmiş modelleri kullanarak e-postaların oltalama içerip içermediğini tespit eden bir web arayüzü oluşturulmuştur.
 Tek bir mail için tahmin yapmak için:
-```bash
+```
 python src/phishing_mail_detection_app.py
-
+```
 ## 💡 Kullanım
 
 1. Web arayüzünden bir model seçin
