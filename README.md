@@ -74,14 +74,4 @@ python src/phishing_mail_detection_app.py
 4. Sonucu görüntüleyin
 
 
-## 📁 Proje Yapısı
-phishing-mail-detection/
-├── src/
-│ ├── source/
-│ │ └── models/ # Eğitilmiş modeller
-│ ├── notebooks/ # Jupyter notebooks
-│ └── phishing_mail_detection_app.py
-├── requirements.txt
-└── README.md
-
 
