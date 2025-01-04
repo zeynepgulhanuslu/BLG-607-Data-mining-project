@@ -73,5 +73,7 @@ python src/phishing_mail_detection_app.py
 3. "Tahmin Et" butonuna tıklayın
 4. Sonucu görüntüleyin
 
+## Proje Sunumu
+Proje sunumuna [buradan](https://drive.google.com/file/d/1jaddG0xVQj9hLcyqrqRZaQUU93UExm3v/view?usp=share_link) ulaşabilirsiniz.
 
 
