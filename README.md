@@ -2,6 +2,10 @@
 
 Bu proje, makine öğrenmesi ve derin öğrenme yöntemlerini kullanarak e-postaların oltalama (phishing) içerip içermediğini tespit eden bir sistemdir.
 
+## Veri setleri :
+
+**İngilizce veri seti:** [zefang-liu/phishing-email-dataset](https://huggingface.co/datasets/zefang-liu/phishing-email-dataset)
+**Türkçe veri seti:** [anilguven/turkish_spam_email](https://huggingface.co/datasets/anilguven/turkish_spam_email)
 
 ## 📊 Test Verisi Sonuçları
 
@@ -9,8 +13,9 @@ Bu proje, makine öğrenmesi ve derin öğrenme yöntemlerini kullanarak e-posta
 |-------|----------|-----------|---------|-----------|
 | SVM | %98.37 | %97.96 | **%97.66** | %97.81 |
 | SVM-CV | **%98.44** | **%98.36** | %97.46 | **%97.90** |
-| Logistic Regression | %96.05 | %93.73 | %95.83 | %94.77 |
-| MLP | %97.64 | %96.75 | %96.95 | %96.85 |
+| Logistic Regression | %97.83 | %97.15 | %97.05 | %97.10 |
+| MLP | %97.98 | %97.16 | %97.46 | %97.31 |
+| Naive Bayes | %96.24 | %95.57| %94.30 | %94.93 |
 | DNN | %97.91 | %96.77 | **%97.66** | %97.22 |
 
 
@@ -22,7 +27,20 @@ Bu proje, makine öğrenmesi ve derin öğrenme yöntemlerini kullanarak e-posta
 | SVM-CV | **%86.36** | 
 | Logistic Regression | %77.27 |
 | MLP | %72.73 |
+| Naive Bayes | **%86.36** |
 | DNN | %72.73 |
+
+## 📊 Türkçe Veri ile Sonuçlar
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|---------|-----------|
+| SVM-CV | %92.61 | %89.81 | **%96.04** | %92.82 |
+| Logistic Regression | **%93.10** | %91.43 | %95.05 | **%93.20** |
+| MLP | %90.15 | %85.84 | **%96.04** | %90.65 |
+| Naive Bayes | %92.61 | **%94.79** | %90.10 | %92.39 |
+| DNN | %91.13 | %88.79 | %94.06 | %91.35 |
+
+
 
 ## 🛠 Kurulum
 
@@ -73,7 +91,8 @@ python src/phishing_mail_detection_app.py
 3. "Tahmin Et" butonuna tıklayın
 4. Sonucu görüntüleyin
 
+![streamlit](./src/source/images/streamlit.png)
 ## Proje Sunumu
-Proje sunumuna [buradan](https://drive.google.com/file/d/1jaddG0xVQj9hLcyqrqRZaQUU93UExm3v/view?usp=share_link) ulaşabilirsiniz.
+Proje sunumuna [buradan](https://drive.google.com/file/d/1VAGPs2f-xKu38PdWu1L5pFvH0MEFBhaC/view?usp=sharing) ulaşabilirsiniz.
 
 
